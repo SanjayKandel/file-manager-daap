@@ -20,7 +20,7 @@ export default function File({data}){
 		<div className="h-screen flex-1 p-7">
 		      {/*<LogoutButton/>   */}
 		      <h1 className="text-2xl font-semibold text-">Your Files</h1>		      
-		      <div class="relative overflow-x-auto sm:rounded-lg mt-20">
+		      <div className="relative overflow-x-auto sm:rounded-lg mt-20">
       			<FileTable files={data.results} />
     		  </div>
 	    </div>

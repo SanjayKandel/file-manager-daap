@@ -40,8 +40,8 @@ export default function Home(){
   }
  
     return (
-      <div class="flex h-screen bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
-          <div class="m-auto">
+      <div className="flex h-screen bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+          <div className="m-auto">
             <div className="p-4 max-w-sm bg-white rounded-lg border shadow-md sm:p-6 dark:bg-gray-800 dark:border-gray-700 mx-auto my-auto">
       <h5 className="mb-3 text-base font-semibold text-gray-900 lg:text-xl dark:text-white">
         Connect wallet

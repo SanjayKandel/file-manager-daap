@@ -35,7 +35,7 @@ const FileGrid = ({data}) => {
   }
 
   return (
-    <div class="relative overflow-x-auto sm:rounded-lg mt-20">
+    <div className="relative overflow-x-auto sm:rounded-lg mt-20">
       
       <FileTable files={data.results} />
     </div>
