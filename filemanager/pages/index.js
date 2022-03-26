@@ -108,7 +108,7 @@ export default function Home(){
                 d="M28.186 16.248l8.737 2.544 2.838 8.748h-7.488l-5.16.065 3.753-7.314-2.68-4.043zM11.814 16.248l-2.68 4.043 3.753 7.314-5.157-.065H.255l2.822-8.748 8.737-2.544zM25.528 5.174l-2.443 6.6-.519 8.915-.198 2.795-.016 7.138h-4.705l-.015-7.125-.2-2.81-.518-8.913-2.443-6.6h11.057z"
               ></path>
             </svg>
-             <span class="ml-3 whitespace-nowrap">MetaMask</span>
+             <span className="ml-3 whitespace-nowrap">MetaMask</span>
           </a>
           </button>
         </li>
@@ -153,7 +153,7 @@ export default function Home(){
                   </g>
                 </g>
               </svg>
-               <span class=" ml-3 whitespace-nowrap">Walletconnect</span>
+               <span className=" ml-3 whitespace-nowrap">Walletconnect</span>
 
             </a>
           </button>

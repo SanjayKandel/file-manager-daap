@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <MoralisProvider appId={moralisAppId} serverUrl={moralisServerURL}>
          <Layout>
-          <Component {...pageProps} />}
+          <Component {...pageProps} />
          </Layout>
       </MoralisProvider>
       </>
