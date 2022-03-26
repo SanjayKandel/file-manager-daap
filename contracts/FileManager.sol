@@ -19,7 +19,7 @@ contract FileManager {
 
     event FileUploaded(
         uint256 indexed fileId,
-        string indexed fileHash,
+        string  fileHash,
         uint256 fileSize,
         string fileType,
         string fileName,
