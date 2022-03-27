@@ -6,7 +6,7 @@
 A peer-to-peer file manger that lets you upload files, manage and store files on the IPFS.
 <br>It is a decentralized application with additional features to easily manage and upload your files.
 
-![](display/files.PNG)
+![](display/files.jpeg)
 
 
 ## <pre> How to use? </pre>
@@ -21,7 +21,7 @@ A peer-to-peer file manger that lets you upload files, manage and store files on
 
 4. View your files
 
-    ![](display/files.PNG)
+    ![](display/files.jpeg)
 
 5. Download the files
 
