@@ -1,6 +1,4 @@
-import Head from "next/head";
-import Image from "next/image";
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { useMoralis } from "react-moralis";
 import { useRouter } from "next/router";
 

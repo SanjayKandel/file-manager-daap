@@ -4,14 +4,11 @@ import "../styles/globals.css";
 const moralisAppId = "TB3hFSbs20LtUCQgdiolte1O9GujtcpDTzR5mVUx";
 const moralisServerURL = "https://hj2l8fsvhhqj.usemoralis.com:2053/server";
 
-import Layout from "../components/Layout";
-
 function MyApp({ Component, pageProps }) {
+  const getLayout = Component.getLayout || ((page) => page);
   return (
     <MoralisProvider appId={moralisAppId} serverUrl={moralisServerURL}>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      {getLayout(<Component {...pageProps} />)}
     </MoralisProvider>
   );
 }
