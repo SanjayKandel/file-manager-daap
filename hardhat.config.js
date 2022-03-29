@@ -18,7 +18,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  */
 
 const privateKey =
-  "410990e9b0da30cef16239f9a235b0017728be4ee3c7b3c8d84abe9fbe0b7245";
+  "";
 
 module.exports = {
   solidity: "0.8.4",
@@ -27,11 +27,11 @@ module.exports = {
       chainId: 1337,
     },
     mumbai: {
-      url: `https://polygon-mumbai.infura.io/v3/51c85accff9e4b9297e6fcc96bbae274`,
+      url: `https://polygon-mumbai.infura.io/v3/${infura-private}`,
       accounts: [privateKey],
     },
     alchemy: {
-      url: "https://polygon-mumbai.g.alchemy.com/v2/Ao4G6y8WzXsmV-QYoXBcCwRLQchYjEef",
+      url: `https://polygon-mumbai.g.alchemy.com/v2/${alchemy-private}`,
       accounts: [privateKey],
     },
   },
