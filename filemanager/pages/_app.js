@@ -1,8 +1,8 @@
 import { MoralisProvider } from "react-moralis";
 import "../styles/globals.css";
 
-const moralisAppId = "TB3hFSbs20LtUCQgdiolte1O9GujtcpDTzR5mVUx";
-const moralisServerURL = "https://hj2l8fsvhhqj.usemoralis.com:2053/server";
+const moralisAppId = "ozg9YGbHjA3M7lCUwKvEvRUNl7FWMczH2BuJbPio";
+const moralisServerURL = "https://xltsia2htgq6.usemoralis.com:2053/server";
 
 function MyApp({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);
